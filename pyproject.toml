@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cats-dogs-codealong"
+version = "0.1.0"
+description = "For use with the CNN chapter project lectures in UCSD course"
+authors = ["Your Name <you@example.com>"]
+license = "n"
+readme = "readme[1].txt"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.0"
+tensorflow = "^2.18.0"
+matplotlib = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
